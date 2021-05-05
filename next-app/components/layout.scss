@@ -1,0 +1,19 @@
+$green: green;
+
+nav {
+  width: 100%;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+    a {
+      color: $green;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+  }
+}
